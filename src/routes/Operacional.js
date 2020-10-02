@@ -1,6 +1,5 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import Ionicons from '@react-native-vector-icons/Ionicons';
 import Atendimento from '../view/atendimento/Atendimento';
 import InfoUsuario from '../view/usuario/InfoUsuario';
 import EstatisticasUsuario from '../view/usuario/EstatisticasUsuario';
