@@ -7,7 +7,7 @@ import InfoUsuario from './usuario/InfoUsuario';
 
 export default props => {
     return (
-        <SafeAreaView style={[estilosComum.viewPadrao]}>
+        <SafeAreaView style={[{ flex: 1 }]}>
             <Atendimento />
             <EstatisticasUsuario />
             <InfoUsuario />

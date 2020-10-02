@@ -9,29 +9,29 @@ const Tab = createBottomTabNavigator();
 
 export default props => (
     <Tab.Navigator
-        screenOptions={({ route }) => ({
-            tabBarIcon: ({ focused, color, size }) => {
-                let iconName;
-                switch (route.name) {
-                    case 'InfoUsuario':
-                        iconName = focused
-                            ? 'ios-information-circle'
-                            : 'ios-information-circle-outline';
-                        break;
-                    case 'Atendimento':
-                        iconName = focused
-                            ? 'ios-information-circle'
-                            : 'ios-information-circle-outline';
-                        break;
-                    case 'EstatisticasUsuario':
-                        iconName = focused
-                            ? 'list'
-                            : 'ios-list';
-                        break;
-                }
-                return <Ionicons name={iconName} size={size} color={color} />;
-            },
-        })}
+        // screenOptions={({ route }) => ({
+        //     tabBarIcon: ({ focused, color, size }) => {
+        //         let iconName;
+        //         switch (route.name) {
+        //             case 'InfoUsuario':
+        //                 iconName = focused
+        //                     ? 'ios-information-circle'
+        //                     : 'ios-information-circle-outline';
+        //                 break;
+        //             case 'Atendimento':
+        //                 iconName = focused
+        //                     ? 'ios-information-circle'
+        //                     : 'ios-information-circle-outline';
+        //                 break;
+        //             case 'EstatisticasUsuario':
+        //                 iconName = focused
+        //                     ? 'list'
+        //                     : 'ios-list';
+        //                 break;
+        //         }
+        //         return <Ionicons name={iconName} size={size} color={color} />;
+        //     },
+        // })}
         tabBarOptions={{
             activeTintColor: 'red',
             inactiveTintColor: 'blue',
