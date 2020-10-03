@@ -2,6 +2,7 @@ export default {
     fontFamily: 'Lato',
     cores: {
         principal: '#3CB371',
+        padrao: '#000',
         hoje: '#B13B44',
         secundaria: '#FFF',
         textoPrincipal: '#222',
