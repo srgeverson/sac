@@ -1,44 +1,51 @@
 {
-  "name": "sac",
-  "version": "0.0.1",
+  "name": "sac-web",
+  "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
-  },
   "dependencies": {
-    "@react-native-community/async-storage": "^1.12.0",
-    "@react-native-community/datetimepicker": "^3.0.3",
-    "@react-native-community/masked-view": "^0.1.10",
-    "@react-navigation/bottom-tabs": "^5.9.1",
-    "@react-navigation/drawer": "^5.9.2",
-    "@react-navigation/native": "^5.7.5",
-    "axios": "^0.20.0",
-    "moment": "^2.29.0",
-    "react": "16.13.1",
-    "react-native": "0.63.3",
-    "react-native-elements": "^2.3.2",
-    "react-native-gesture-handler": "^1.8.0",
-    "react-native-gravatar": "^1.0.2",
-    "react-native-reanimated": "^1.13.1",
-    "react-native-safe-area-context": "^3.1.8",
-    "react-native-screens": "^2.11.0",
-    "react-native-vector-icons": "^7.1.0"
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "date-fns": "^2.19.0",
+    "history": "^5.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-charts": "^3.0.15",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "validator": "^13.5.2",
+    "web-vitals": "^1.1.1"
   },
-  "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/runtime": "^7.8.4",
-    "@react-native-community/eslint-config": "^1.1.0",
-    "babel-jest": "^25.1.0",
-    "eslint": "^6.5.1",
-    "jest": "^25.1.0",
-    "metro-react-native-babel-preset": "^0.59.0",
-    "react-test-renderer": "16.13.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "jest": {
-    "preset": "react-native"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
